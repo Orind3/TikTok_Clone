@@ -1,0 +1,81 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100px;
+    padding: 9px 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    + .wrapper {
+        margin-left: 10px;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:visited {
+    }
+}
+
+.primary {
+    background-color: rgba(236, 64, 122, 1);
+    color: white;
+
+    &:hover {
+        background-color: #e50e38;
+    }
+}
+
+a:visited {
+    color: currentColor;
+}
+.outline {
+    color: rgba(236, 64, 122, 1);
+    border-color: rgba(236, 64, 122, 1);
+    &:hover {
+        border-color: #e50e38;
+    }
+}
+
+.small {
+    min-width: 88px;
+    padding: 4px 16px;
+}
+.medium {
+    padding: 8px 8px;
+    min-width: 100px;
+}
+.rounded{
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(0 0 0 / 12%);
+    border-color: rgba(22,24,35,0.12);
+    &:hover{
+        border-color: rgba(22,24,35,0.2);
+        background-color: rgba(22,24,35,0.03);
+    }
+}
+.large {
+    padding: 14px 16px;
+    min-width: 140px;
+}
+.text {
+    background-color: transparent;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.custom-login{
+    color: orange;
+}
+
+.more-btn{
+    
+}
+.icon{
+    margin: 0 10px;
+}
